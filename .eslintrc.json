@@ -1,3 +1,32 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+    ],
+    "react/react-in-jsx-scope": "off",
+    "react/no-unknown-property": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-no-useless-fragment": "off",
+    "linebreak-style": 0,
+    "tjsx-a11y/anchor-is-valid": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "object-curly-newline": "off",
+    "no-underscore-dangle": "off",
+    "arrow-body-style": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "operator-linebreak": "off",
+    "consistent-return": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/alt-text": "off",
+    "@next/next/no-img-element": "off",
+    "react/no-unescaped-entities": "off",
+    "react-hooks/exhaustive-deps": "off"
+  }
 }
